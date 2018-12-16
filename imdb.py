@@ -38,7 +38,7 @@ soup = BeautifulSoup(session.get(url).content, "lxml")
 moviesList = []
 results = soup.find("table", class_ = "findList")
 resultList = results.find_all("tr")
-for result in resultList[:11]:
+for result in resultList[:10]:
     resText = result.find("td", class_ = "result_text")
     rT = resText.text.lower()
     if ("tv " in rT) or (movieQuery.lower() not in rT):
@@ -48,9 +48,9 @@ for result in resultList[:11]:
     movieInfoLink = f'https://www.imdb.com{resText.a["href"]}'
     movieSoup = BeautifulSoup(session.get(movieInfoLink).content, "lxml")
 
-    movieTitle = movieSoup.find("div", class_ = "title_wrapper").h1.text[:-7]
+    movieTitle = movieSoup.find("div", class_ = "title_wrapper").h1.text[:-8]
     
-    movieStatus = "TBD"
+    movieStatus = "To Be Downloaded"
     
     movieSubTextSoup = movieSoup.find("div", class_ = "subtext")
     
@@ -106,12 +106,14 @@ for result in resultList[:11]:
     movie = Movie(movieTitle, moviePlot, movieActorsList, movieReleaseDate, movieLength, movieStatus, movieGenreList, movieIMDBRating)
     moviesList.append(movie)
 
-
-
 for movie in moviesList:
     print(movie)
     print()
-# print(soup.prettify())
-# with open("mv.html", "r+") as f:
-#     f.write(soup.prettify())
 
+if len(moviesList):
+    i = int(input(f"Enter your choice [1-{len(moviesList)}]: "))
+    if i in range(1,len(moviesList)+1):
+        with open("mvStatus_local.csv", "a") as f:
+            movie = moviesList[i-1]
+            print(repr(movie.title))
+            f.write(f"{movie.title},{movie.release},{movie.status}\n")
