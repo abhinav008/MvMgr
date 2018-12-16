@@ -107,8 +107,7 @@ for result in resultList[:10]:
 	moviesList.append(movie)
 
 for movie in moviesList:
-	print(movie)
-	print()
+	print(movie,"")
 
 if len(moviesList):
 	i = int(input(f"Enter your choice [1-{len(moviesList)}]: "))
