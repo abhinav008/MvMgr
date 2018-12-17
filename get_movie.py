@@ -7,18 +7,18 @@ import re, os
 def match_movie_name(movieQuery, found_movie):
 	flag = True
 	for term in re.finditer(r'[a-zA-Z]+', movieQuery):
-		if term[0] not in found_movie:
+		if term.group(0) not in found_movie:
 			flag = False
 	return flag
 
 def clean_movieQuery(movieQuery):
 	res = ''
 	for term in re.finditer(r'[a-zA-Z]+', movieQuery):
-		res += '{} '.format(term[0])
+		res += '{} '.format(term.group(0))
 	return res
 
 def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
-	yearQuery = re.search('[0-9]{4}', releaseDateQuery)[0]
+	yearQuery = re.search('[0-9]{4}', releaseDateQuery).group(0)
 
 	url = 'https://axemovies.com/?s={}'.format(clean_movieQuery(movieQuery).replace(" ", "+"))
 	sess = requests.session()
