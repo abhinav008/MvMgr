@@ -73,7 +73,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 							f.write(f'{line.split(",")[0]},{line.split(",")[1]},Downloaded')
 	return result
 
-# download_movie_from_axemovies('')
+download_movie_from_axemovies(movieQuery, releaseDateQuery, os.getcwd())
 
 				
 		
