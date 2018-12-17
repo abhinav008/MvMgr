@@ -14,18 +14,18 @@ def match_movie_name(movieQuery, found_movie):
 def clean_movieQuery(movieQuery):
 	res = ''
 	for term in re.finditer(r'[a-zA-Z]+', movieQuery):
-		res += f'{term[0]} '
+		res += '{} '.format(term[0])
 	return res
 
 def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 	yearQuery = re.search('[0-9]{4}', releaseDateQuery)[0]
 
-	url = f'https://axemovies.com/?s={clean_movieQuery(movieQuery).replace(" ", "+")}'
+	url = 'https://axemovies.com/?s={}'.format(clean_movieQuery(movieQuery).replace(" ", "+"))
 	sess = requests.session()
 	soup = BeautifulSoup(sess.get(url).content, 'lxml')
 
 	movie_links = [x.a['href'] for x in soup.find_all('div', class_='item') ]
-	download_folder = os.path.join(download_dir, f'{clean_movieQuery(movieQuery)} ({yearQuery})')
+	download_folder = os.path.join(download_dir, '{} ({})'.format(clean_movieQuery(movieQuery), yearQuery))
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference('browser.download.folderList', 2)
 	profile.set_preference('browser.download.manager.showWhenStarting', False)
@@ -49,7 +49,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 			and yearQuery.lower() in data.span.text.lower() \
 			and (( 'hd' in quality.text.lower() and 'cam' not in quality.text.lower()) or '720p' in quality.text.lower()):
 				print('Movie found!')
-				print(f'{movieQuery} {releaseDateQuery} {quality.text}')
+				print('{} {} {}'.format(movieQuery, releaseDateQuery, quality.text))
 				browser.get(link)
 				browser.find_element_by_xpath('//input[@alt="Download Movie height="]').click()
 				result = True
@@ -61,7 +61,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 					while len(line) != 0:
 						if line.split(',')[0] == movieQuery and yearQuery in line.split(',')[1]:
 							f.seek(pre_tell)
-							f.write(f'{line.split(",")[0]},{line.split(",")[1]},DIP\n')
+							f.write('{},{},DIP\n'.format(line.split(",")[0], line.split(",")[1]))
 							print('Download Started')
 							break
 						pre_tell = f.tell()
@@ -85,13 +85,13 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 					while len(line) != 0:
 						if line.split(',')[0] == movieQuery and yearQuery in line.split(',')[1]:
 							f.seek(pre_tell)
-							f.write(f'{line.split(",")[0]},{line.split(",")[1]},DIC\n')
+							f.write('{},{},DIC\n'.format(line.split(",")[0], line.split(",")[1]))
 							break
 						pre_tell = f.tell()
 						line = f.readline()
 				break
 	else:
-		print(f'{movieQuery} Movie not found!')
+		print('{} Movie not found!'.format(movieQuery))
 	browser.quit()
 	return result
 
@@ -101,9 +101,7 @@ with open('mvStatus_local.csv', 'r') as f:
 		if 'TBD' in line.split(',')[2]:
 			download_movie_from_axemovies(line.split(',')[0], line.split(',')[1], os.getcwd())
 
-# print(match_movie_name("Mission: Impossible - Fallout".lower(), "Mission Impossible Fallout".lower()))
-
-				
+			
 		
 			
 
