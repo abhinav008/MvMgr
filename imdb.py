@@ -29,7 +29,7 @@ class Movie:
 
 
 movieQuery = input("Enter Movie Name:")
-url = f'https://www.imdb.com/find?q={movieQuery.replace(" ", "+")}&s=tt'
+url = 'https://www.imdb.com/find?q={}&s=tt'.format(movieQuery.replace(" ", "+"))
 session = requests.session()
 # print(url)
 s = session.get(url)
@@ -45,7 +45,7 @@ for result in resultList[:10]:
 		# print(rT, movieQuery, ("tv " in rT), (movieQuery.lower() not in rT))
 		continue
 	print(rT)
-	movieInfoLink = f'https://www.imdb.com{resText.a["href"]}'
+	movieInfoLink = 'https://www.imdb.com{}'.format(resText.a["href"])
 	movieSoup = BeautifulSoup(session.get(movieInfoLink).content, "lxml")
 
 	movieTitle = movieSoup.find("div", class_ = "title_wrapper").h1.text[:-8].replace(",", "")
@@ -110,11 +110,11 @@ for movie in moviesList:
 	print(movie,"")
 
 if len(moviesList):
-	i = int(input(f"Enter your choice [1-{len(moviesList)}]: "))
+	i = int(input("Enter your choice [1-{}]: ".format(len(moviesList))))
 	if i in range(1,len(moviesList)+1):
 		with open("mvStatus_local.csv", "a") as f:
 			movie = moviesList[i-1]
 			print(repr(movie.title))
-			f.write(f"{movie.title},{movie.release},{movie.status}\n")
+			f.write("{},{},{}\n".format(movie.title,movie.release,movie.status))
 	else:
 		print("GTFO")
