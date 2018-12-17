@@ -19,14 +19,15 @@ def clean_movieQuery(movieQuery):
 	return res
 
 def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
-	yearQuery = re.search('[0-9]{4}', releaseDateQuery).group(0)
+	monthYearQuery = re.search('[A-Za-z].* [0-9]{4}', releaseDateQuery).group(0)
+	monthYearQuery = monthYearQuery[:3] + " " + monthYearQuery[-4:]
 
 	url = 'https://axemovies.com/?s={}'.format(clean_movieQuery(movieQuery).replace(" ", "+"))
 	sess = requests.session()
 	soup = BeautifulSoup(sess.get(url).content, 'lxml')
 
 	movie_links = [x.a['href'] for x in soup.find_all('div', class_='item') ]
-	download_folder = os.path.join(download_dir, '{} ({})'.format(clean_movieQuery(movieQuery), yearQuery))
+	download_folder = os.path.join(download_dir, '{} ({})'.format(clean_movieQuery(movieQuery), monthYearQuery))
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference('browser.download.folderList', 2)
 	profile.set_preference('browser.download.manager.showWhenStarting', False)
@@ -47,7 +48,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 		quality = s.find('span', 'calidad2')
 		try:
 			if match_movie_name(movieQuery.lower(), data.span.text.lower()) \
-			and yearQuery.lower() in data.span.text.lower() \
+			and monthYearQuery.lower() in data.span.text.lower() \
 			and (( 'hd' in quality.text.lower() and 'cam' not in quality.text.lower()) or '720p' in quality.text.lower()):
 				print('Movie found!')
 				print('{} {} {}'.format(movieQuery, releaseDateQuery, quality.text))
@@ -60,7 +61,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 					pre_tell = 0
 					line = f.readline()
 					while len(line) != 0:
-						if line.split(',')[0] == movieQuery and yearQuery in line.split(',')[1]:
+						if line.split(',')[0] == movieQuery and monthYearQuery in line.split(',')[1]:
 							f.seek(pre_tell)
 							f.write('{},{},DIP\n'.format(line.split(",")[0], line.split(",")[1]))
 							print('Download Started')
@@ -84,7 +85,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 					pre_tell = 0
 					line = f.readline()
 					while len(line) != 0:
-						if line.split(',')[0] == movieQuery and yearQuery in line.split(',')[1]:
+						if line.split(',')[0] == movieQuery and monthYearQuery in line.split(',')[1]:
 							f.seek(pre_tell)
 							f.write('{},{},DIC\n'.format(line.split(",")[0], line.split(",")[1]))
 							break
@@ -118,7 +119,7 @@ def regular_check(last_checked_date, file_last_modified):
 			file_last_modified = stat.st_mtime
 			last_checked_date = today
 			try:
-				print('File modified! Going through list {}'.format(datetime.now()))
+				print('File modified! Going through list at {}'.format(datetime.now()))
 				go_through_list()
 			except:
 				pass
@@ -126,12 +127,12 @@ def regular_check(last_checked_date, file_last_modified):
 			file_last_modified = stat.st_mtime
 			last_checked_date = today
 			try:
-				print('New Day! Going through list {}'.format(datetime.now()))
+				print('New Day! Going through list at {}'.format(datetime.now()))
 				go_through_list()
 			except:
 				pass
 		else:
-			time.sleep(1800)
+			time.sleep(300)
 
 if __name__ == '__main__':
 	regular_check(0, 0) # initialise last_checked_dat and file_last_modified
