@@ -1,0 +1,594 @@
+1545005567557	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pP4T1xThWtMj"
+1545005568670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545005568671	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545005572178	Marionette	INFO	Listening on port 38953
+1545005572279	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545005679757	Marionette	INFO	Stopped listening on port 38953
+1545005896673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.flhKmicQbGhp"
+1545005897005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545005897005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545005899542	Marionette	INFO	Listening on port 40703
+1545005899594	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+1545005978518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AazUTomKQGYl"
+1545005978856	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545005978856	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545005981665	Marionette	INFO	Listening on port 33063
+1545005981733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+1545006068627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gROtp2EvFEMX"
+1545006068970	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545006068971	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545006071793	Marionette	INFO	Listening on port 40849
+1545006071856	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545006302304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JMnNtXxDj61d"
+1545006302646	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545006302647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545006305457	Marionette	INFO	Listening on port 36127
+1545006305524	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3203, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545006435331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gVoLLHJIRrG8"
+1545006435688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545006435688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545006438503	Marionette	INFO	Listening on port 32815
+1545006438555	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+1545006512972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FLe11IsqMbeo"
+1545006513482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545006513483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545006516226	Marionette	INFO	Listening on port 46023
+1545006516287	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545006877754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sHBsszlGwBbd"
+1545006878126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545006878126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545006881028	Marionette	INFO	Listening on port 38347
+1545006881077	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545007207718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mzADMKJqvJGs"
+1545007208079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545007208079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545007211033	Marionette	INFO	Listening on port 41635
+1545007211132	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+[Parent 4624, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545007338171	Marionette	INFO	Stopped listening on port 41635
+1545007339320	Marionette	INFO	Stopped listening on port 38347
+1545007350956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XlzmgSpKXP1X"
+1545007351295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545007351295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545007354147	Marionette	INFO	Listening on port 33363
+1545007354177	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+1545007463716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MN6cOfOtQSFj"
+1545007464094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545007464094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[Parent 5017, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545007465897	Marionette	INFO	Stopped listening on port 33363
+1545007467243	Marionette	INFO	Listening on port 42889
+1545007467329	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545007576662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cUw8vefGhPOD"
+1545007577014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545007577014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545007579916	Marionette	INFO	Listening on port 37353
+1545007579992	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 5799, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545007659046	Marionette	INFO	Stopped listening on port 37353
+[Parent 5459, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545007660289	Marionette	INFO	Stopped listening on port 42889
+1545007666754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sJqrlvI262Qk"
+1545007667109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545007667109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545007669893	Marionette	INFO	Listening on port 43945
+1545007669969	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+1545007735131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KMXP7zwAzgj4"
+1545007735633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545007735634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545007738665	Marionette	INFO	Listening on port 43641
+1545007738747	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+1545007784834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sgLadB20mPo7"
+1545007785203	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545007785204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545007788160	Marionette	INFO	Listening on port 34831
+1545007788273	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+1545007865853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.d9DGLxXwmVHO"
+1545007866296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545007866296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545007869461	Marionette	INFO	Listening on port 40197
+1545007869490	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6813, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 6494, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545007874419	Marionette	INFO	Stopped listening on port 34831
+1545007874983	Marionette	INFO	Stopped listening on port 43641
+[Parent 6144, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545007876203	Marionette	INFO	Stopped listening on port 43945
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+1545008078325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eHGMfAc91iwR"
+1545008078698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545008078698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545008081560	Marionette	INFO	Listening on port 45489
+1545008081639	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+1545008305897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LRGPztzLnXbY"
+1545008306397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545008306397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545008309366	Marionette	INFO	Listening on port 40647
+1545008309426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545008690265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WZNfRlM01w2p"
+1545008691048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545008691049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545008694678	Marionette	INFO	Listening on port 46501
+1545008694696	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7949, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545008700294	Marionette	INFO	Stopped listening on port 40647
+1545008701117	Marionette	INFO	Stopped listening on port 45489
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+1545008704034	Marionette	INFO	Stopped listening on port 40197
+JavaScript error: resource:///actors/PageStyleChild.jsm, line 29: NS_ERROR_FAILURE: Failure
+1545008766144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.No2LjjCI2BH5"
+1545008766495	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545008766496	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545008769534	Marionette	INFO	Listening on port 45695
+1545008769561	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/api2/v1543818755456/recaptcha__en.js, line 492: Error: Missing required parameters: sitekey
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8938, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545009884655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oS7YzjAAjXJO"
+1545009885029	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545009885030	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545009887907	Marionette	INFO	Listening on port 39841
+1545009887972	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127829706-1, line 147: unreachable code after return statement
+1545010074758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8vG80pOF0nCU"
+1545010075271	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010075271	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010078129	Marionette	INFO	Listening on port 40675
+1545010078180	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8451, Gecko_IOThread] WARNING: pipe error (110): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010088633	Marionette	INFO	Stopped listening on port 46501
+[Parent 9743, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 9743, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010090801	Marionette	INFO	Stopped listening on port 39841
+1545010140081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mJ0RINYcHmL4"
+1545010140452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010140452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010143461	Marionette	INFO	Listening on port 40015
+1545010143503	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545010205367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1K8lSzeFmxvV"
+1545010205724	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010205725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010208671	Marionette	INFO	Listening on port 40817
+1545010208685	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545010270471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RPmUTBlvtJya"
+1545010270815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010270816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010273691	Marionette	INFO	Listening on port 41021
+1545010273788	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545010336802	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HKf56HsGHt9H"
+1545010337151	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010337152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010340054	Marionette	INFO	Listening on port 33019
+1545010340120	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10342, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10265, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11235, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11526, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11155, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10589, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10566, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010363779	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LllIqRN167xz"
+1545010364140	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010364141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010367388	Marionette	INFO	Listening on port 34367
+1545010367400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545010370131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LTfMroJrsTs3"
+1545010370526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010370526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010373922	Marionette	INFO	Listening on port 45305
+1545010373947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545010376727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.skvrUtTosvVu"
+1545010377124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010377125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010380503	Marionette	INFO	Listening on port 42891
+1545010380543	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545010383327	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.U0QM0J1mhhDx"
+1545010383702	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010383702	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010386978	Marionette	INFO	Listening on port 37373
+1545010387044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545010388781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.quOJD60JStgv"
+1545010389207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010389208	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010393023	Marionette	INFO	Listening on port 33875
+1545010393126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545010395202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WagGs3U1jkfp"
+1545010395639	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010395640	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010399851	Marionette	INFO	Listening on port 43471
+1545010399928	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 12902, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 12902, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010467775	Marionette	INFO	Stopped listening on port 43471
+[Parent 12641, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 12641, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010468892	Marionette	INFO	Stopped listening on port 33875
+[Parent 12412, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010470002	Marionette	INFO	Stopped listening on port 37373
+[Parent 12137, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 12137, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010471106	Marionette	INFO	Stopped listening on port 42891
+[Parent 11860, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010472175	Marionette	INFO	Stopped listening on port 45305
+[Parent 11605, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 11605, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010473309	Marionette	INFO	Stopped listening on port 34367
+1545010691560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jVKlCTbnGIuv"
+1545010691915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010691915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010695123	Marionette	INFO	Listening on port 36189
+1545010695216	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545010702058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m3f4Yl1E44az"
+1545010702413	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010702414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010705297	Marionette	INFO	Listening on port 45217
+1545010705380	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545010707048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oNZwKTOH7m1n"
+1545010707439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010707440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010711495	Marionette	INFO	Listening on port 46381
+1545010711562	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545010713307	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tFI0nrc1ir7d"
+1545010713668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545010713668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545010717463	Marionette	INFO	Listening on port 44743
+1545010717526	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  remote-settings/monitor_changes
+  threw error:
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 14121, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 14121, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010959562	Marionette	INFO	Stopped listening on port 44743
+[Parent 13872, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 13872, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010960760	Marionette	INFO	Stopped listening on port 46381
+[Parent 13619, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 13619, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010961819	Marionette	INFO	Stopped listening on port 45217
+[Parent 13354, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+[Parent 13354, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-wWf_B4/firefox-64.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 363
+1545010962930	Marionette	INFO	Stopped listening on port 36189

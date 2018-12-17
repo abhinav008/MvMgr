@@ -50,7 +50,7 @@ for result in resultList[:10]:
 
 	movieTitle = movieSoup.find("div", class_ = "title_wrapper").h1.text[:-8].replace(",", "")
 	
-	movieStatus = "To Be Downloaded"
+	movieStatus = "TBD"
 	
 	movieSubTextSoup = movieSoup.find("div", class_ = "subtext")
 	

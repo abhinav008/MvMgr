@@ -46,12 +46,16 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 				result = True
 				
 				# write to the file that downloading started
-				with open('mvStatus_server.csv', 'r+') as f:
+				with open('mvStatus_server.csv', 'r+') as f: # currently for local
 					pre_tell = 0
-					for line in f:
-						if line.split(',')[0] is movieQuery and line.split(',')[0] is releaseDateQuery:
+					line = f.readline()
+					while len(line) != 0:
+						if line.split(',')[0] == movieQuery and yearQuery in line.split(',')[1]:
 							f.seek(pre_tell)
-							f.write(f'{line.split(",")[0]},{line.split(",")[1]},Downloading')
+							f.write(f'{line.split(",")[0]},{line.split(",")[1]},DIP\n')
+							break
+						pre_tell = f.tell()
+						line = f.readline()
 				break
 		except:
 			pass
@@ -60,20 +64,29 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 		while True:
 			flag = False
 			for fil in os.listdir(download_folder):
-				if fil[-4:] is 'part':
+				if fil[-4:] == 'part':
 					flag = True
 			if flag:
 				time.sleep(300)
 			else:
-				with open('mvStatus_server.csv', 'r+') as f:
+				with open('mvStatus_local.csv', 'r+') as f: # currently for local
 					pre_tell = 0
-					for line in f:
-						if line.split(',')[0] is movieQuery and line.split(',')[0] is releaseDateQuery:
+					line = f.readline()
+					while len(line) != 0:
+						if line.split(',')[0] == movieQuery and yearQuery in line.split(',')[1]:
 							f.seek(pre_tell)
-							f.write(f'{line.split(",")[0]},{line.split(",")[1]},Downloaded')
+							f.write(f'{line.split(",")[0]},{line.split(",")[1]},DIC\n')
+							break
+						pre_tell = f.tell()
+						line = f.readline()
+				break
 	return result
 
-download_movie_from_axemovies(movieQuery, releaseDateQuery, os.getcwd())
+
+with open('mvStatus_local.csv', 'r') as f:
+	for line in f:
+		if 'TBD' in line.split(',')[2]:
+			download_movie_from_axemovies(line.split(',')[0], line.split(',')[1], os.getcwd())
 
 				
 		
