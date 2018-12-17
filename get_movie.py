@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import requests
 import re, os
+from datetime import datetime
 
 def match_movie_name(movieQuery, found_movie):
 	flag = True
@@ -55,7 +56,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 				result = True
 				
 				# write to the file that downloading started
-				with open('mvStatus_local.csv', 'r+') as f: # currently for local
+				with open('mvStatus_server.csv', 'r+') as f:
 					pre_tell = 0
 					line = f.readline()
 					while len(line) != 0:
@@ -70,7 +71,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 		except:
 			pass
 	if result:
-		time.sleep(60) # give enough time for download to start
+		time.sleep(120) # give enough time for download to start
 		while True:
 			flag = False
 			for fil in os.listdir(download_folder):
@@ -79,7 +80,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 			if flag:
 				time.sleep(300)
 			else:
-				with open('mvStatus_local.csv', 'r+') as f: # currently for local
+				with open('mvStatus_server.csv', 'r+') as f:
 					pre_tell = 0
 					line = f.readline()
 					while len(line) != 0:
@@ -96,16 +97,41 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 	return result
 
 
-with open('mvStatus_local.csv', 'r') as f:
-	for line in f:
-		if 'TBD' in line.split(',')[2]:
-			download_movie_from_axemovies(line.split(',')[0], line.split(',')[1], os.getcwd())
+def go_through_list():
+	with open('mvStatus_server.csv', 'r') as f:
+		for line in f:
+			try:
+				if 'TBD' in line.split(',')[2]:
+					download_movie_from_axemovies(line.split(',')[0], line.split(',')[1], os.getcwd())
+			except:
+				pass
 
-			
-		
-			
+# checks the list every 5 minutes for new additions to list
+# goes through list if any additions
+# or goes through list once in a day to check whether new arrivals at website
+# in the old list
+def regular_check(last_checked_date, file_last_modified):
+	while True:
+		stat = os.stat('mvStatus_server.csv')
+		today = datetime.now().timetuple().tm_mday
+		if stat.st_mtime != file_last_modified:
+			file_last_modified = stat.st_mtime
+			last_checked_date = today
+			try:
+				print('File modified! Going through list {}'.format(datetime.now()))
+				go_through_list()
+			except:
+				pass
+		elif last_checked_date != today:
+			file_last_modified = stat.st_mtime
+			last_checked_date = today
+			try:
+				print('New Day! Going through list {}'.format(datetime.now()))
+				go_through_list()
+			except:
+				pass
+		else:
+			time.sleep(1800)
 
-
-
-
-
+if __name__ == '__main__':
+	regular_check(0, 0) # initialise last_checked_dat and file_last_modified
