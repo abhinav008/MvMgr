@@ -28,7 +28,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 	soup = BeautifulSoup(sess.get(url).content, 'lxml')
 
 	movie_links = [x.a['href'] for x in soup.find_all('div', class_='item') ]
-	download_folder = os.path.join(download_dir, '{} ({})'.format(clean_movieQuery(movieQuery), monthYearQuery))
+	download_folder = os.path.join(download_dir, '{} ({})'.format(clean_movieQuery(movieQuery), yearQuery))
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference('browser.download.folderList', 2)
 	profile.set_preference('browser.download.manager.showWhenStarting', False)
