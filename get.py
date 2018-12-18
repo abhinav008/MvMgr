@@ -21,6 +21,7 @@ def clean_movieQuery(movieQuery):
 def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 	monthYearQuery = re.search('[A-Za-z].* [0-9]{4}', releaseDateQuery).group(0)
 	monthYearQuery = monthYearQuery[:3] + " " + monthYearQuery[-4:]
+	yearQuery = monthYearQuery[-4:]
 
 	url = 'https://axemovies.com/?s={}'.format(clean_movieQuery(movieQuery).replace(" ", "+"))
 	sess = requests.session()
@@ -61,11 +62,12 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 					pre_tell = 0
 					line = f.readline()
 					while len(line) != 0:
-						if line.split(',')[0] == movieQuery and monthYearQuery in line.split(',')[1]:
+						if line.split(',')[0] == movieQuery and yearQuery in line.split(',')[1]:
 							f.seek(pre_tell)
 							f.write('{},{},DIP\n'.format(line.split(",")[0], line.split(",")[1]))
 							print('Download Started')
 							break
+						print(line)
 						pre_tell = f.tell()
 						line = f.readline()
 				break
@@ -85,7 +87,7 @@ def download_movie_from_axemovies(movieQuery, releaseDateQuery, download_dir):
 					pre_tell = 0
 					line = f.readline()
 					while len(line) != 0:
-						if line.split(',')[0] == movieQuery and monthYearQuery in line.split(',')[1]:
+						if line.split(',')[0] == movieQuery and yearQuery in line.split(',')[1]:
 							f.seek(pre_tell)
 							f.write('{},{},DIC\n'.format(line.split(",")[0], line.split(",")[1]))
 							break
